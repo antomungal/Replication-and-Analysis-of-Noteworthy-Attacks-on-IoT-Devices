@@ -12,9 +12,25 @@ This section will dissect emblematic attacks, focusing on microcontrollers and e
 By navigating through this repository, researchers and security professionals alike can gain access to a wealth of empirical data and methodological strategies to enhance the fortification of IoT devices against sophisticated cyber attacks.
 
 
-### Research Overview
+### ### Extraction of Key from ESP32 Microcontroller
 
-Researchers often approach their investigative endeavors with unique perspectives...
+The core aim of the study was to extract the cryptographic key from the ESP32 microcontroller...
+
+*Referencing the article limitedresults_esp32_2019, the chosen method for this intrusion was Differential Fault Analysis (DFA)...*
+
+Unfortunately, the attack did not proceed as anticipated...
+
+**Table: Comparison of Boards Used vs. Presented in the Article**
+
+|                                        | **Experiment**         | **Article**         |
+| -------------------------------------- | ---------------------- | ------------------- |
+| **Name**                               | AZDelivery LOLIN32 Lite V1.0.0 | ESP-WROOM-32 LOLIN32 V1.0.0 |
+| **MCU**                                | ESP32-D0WDQ6           | ESP32-D0WDQ6        |
+| **Encapsulation Date**                 | Week 37 of 2021        | Week 30 of 2018     |
+| **Image**                              | `esp32exp.PNG` here    | `esp32art.PNG` here |
+
+The investigation underscored the importance of possessing detailed technical specifications...
+
 
 ### Methodology Formulation
 
